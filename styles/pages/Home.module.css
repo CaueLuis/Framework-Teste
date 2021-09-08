@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.title {
+  color: #400b58;
+  font-size: 4rem;
+  justify-content: center;
+}
+
+.body {
+  color: #400b58;
+  font-size: 1rem;
+  justify-content: center;
+  padding-top: 4rem;
+}
+
+.body li {
+  margin-top: 15px;
+}

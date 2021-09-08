@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+  border-radius: 0.25rem;
+  padding: 1rem;
+
+  box-shadow: 0.3s;
+}
+
+.container:hover {
+  box-shadow: 0 0 11px rgb(33 33 33 / 20%);
+}
+
+.title {
+  font-size: 1rem;
+  color: #333333;
+  font-weight: 600;
+}
+
+.body {
+  font-size: 0.8rem;
+  color: green;
+}
